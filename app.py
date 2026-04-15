@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("heart_health_predictor/model.pkl", "rb"))
 
 # Input fields
 st.set_page_config(page_title="Heart Disease Predictor", layout="wide")
